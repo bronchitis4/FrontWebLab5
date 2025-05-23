@@ -1,0 +1,15 @@
+.event__info__block {
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.20);
+    padding: 5px 25px;
+}
+
+.event__info__block h1 {
+    text-align: center;
+}
+
+.general__content__block img {
+    width: 100%;
+}
+

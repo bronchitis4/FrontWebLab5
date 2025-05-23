@@ -1,0 +1,28 @@
+.circular__graph__block {
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1;
+    background-color: white;
+}
+
+.graph {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    transition: all 1s ease ;
+}
+
+.graph::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+.article__item {
+    width: 100%;
+    padding: 25px;
+}
+
+.article__item img {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.article__item h1 {
+    margin: 0px;
+}
+
+.article__item p {
+    text-align: justify;
+}
+
+.article__item button {
+    width: 100px;
+    height: 38px;
+    background-color: white;
+    box-shadow: 1px 1px 0px;
+}
+.test__btn {
+    margin-left: 10px;
+}
+
+.article__item button:active {
+    box-shadow: none;
+}
+
+.article__item button:hover {
+    cursor: pointer;
+
+}

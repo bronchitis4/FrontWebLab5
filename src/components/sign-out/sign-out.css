@@ -1,0 +1,12 @@
+.sign__out {
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(92, 90, 239);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+
+}

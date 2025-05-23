@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.chronology__list__item {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.chronology__list__item h1 {
+    width: 80%;
+}
+
+@media (max-width: 500px) {
+    .chronology__list__item h1 {
+        font-size: 20px;
+    }
+}
+
+.chronology__list__item:hover {
+    margin-left: 15px;
+    transition: all 0.5s ease;
+}
+.event__title {
+    padding: 0px;
+    margin: 0px;
+}
+
+.event__date {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
